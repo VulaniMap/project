@@ -1,0 +1,44 @@
+body {
+  font-family: Poppins;
+}
+h1 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  word-spacing: 5px;
+  text-align: center;
+  width: 144px;
+  height: 36px;
+}
+h2 {
+  font-weight: 700px;
+  font-style: Bold;
+  font-size: 96px;
+  line-height: 100%;
+  word-spacing: 0%;
+  width: 928px;
+  height: 144px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  word-spacing: 0%;
+  text-align: center;
+  width: 456px;
+  height: 60px;
+}
+.hero {
+  border: 1px solid lightgrey;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url(/images/Johannesburg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
