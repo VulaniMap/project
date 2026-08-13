@@ -1,44 +1,66 @@
 body {
   font-family: Poppins;
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url("/images/Johannesburg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
 h1 {
   font-weight: 900;
   font-size: 24px;
-  line-height: 100%;
-  word-spacing: 5px;
-  text-align: center;
-  width: 144px;
-  height: 36px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
 }
 h2 {
-  font-weight: 700px;
-  font-style: Bold;
+  font-weight: 700;
   font-size: 96px;
-  line-height: 100%;
-  word-spacing: 0%;
-  width: 928px;
-  height: 144px;
+  line-height: 1.5;
+  margin: 0;
 }
 h3 {
   font-weight: 400;
   font-size: 40px;
-  line-height: 100%;
-  word-spacing: 0%;
-  text-align: center;
-  width: 456px;
-  height: 60px;
-}
-.hero {
-  border: 1px solid lightgrey;
-  padding: 60px;
-  max-width: 1200px;
+  line-height: 1.5;
   margin: 0;
+}
+button {
+  margin-top: 25px;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #272044;
   text-align: center;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
-    url(/images/Johannesburg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffff;
+  padding: 10px 12px;
+}
+@media (max-width: 800px) {
+  header {
+    padding: 40px 0;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 20px;
+  }
 }
