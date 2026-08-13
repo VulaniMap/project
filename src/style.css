@@ -15,20 +15,20 @@ body {
   text-align: center;
   padding: 100px 0;
 }
-h1 {
+header h1 {
   font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
 }
-h2 {
+header h2 {
   font-weight: 700;
   font-size: 96px;
   line-height: 1.5;
   margin: 0;
 }
-h3 {
+header h3 {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.5;
@@ -50,17 +50,67 @@ header a {
   background: #ffff;
   padding: 10px 12px;
 }
+footer {
+  background-image:
+    linear-gradient(rgba(10, 8, 19, 0.9), rgba(10, 7, 20, 0.8)),
+    url("../images/Johannesburg-footer.jpg");
+  color: #ffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+footer h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  font-weight: 400;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0.7;
+}
+footer a {
+  text-decoration: none;
+  color: #ffff;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.6;
+  margin-right: 10px;
+}
+footer section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
 @media (max-width: 800px) {
   header {
     padding: 40px 0;
   }
-  h1 {
+  header h1 {
     font-size: 12px;
   }
-  h2 {
+  header h2 {
     font-size: 48px;
   }
-  h3 {
+  header h3 {
     font-size: 20px;
   }
 }
