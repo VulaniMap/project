@@ -78,11 +78,50 @@ main p {
   color: #ffffff;
 }
 section {
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
-
+.secondary h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffff;
+  margin: 0;
+}
+.secondary h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffff;
+}
+.secondary p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #ffff;
+  opacity: 0.7;
+}
+.btn {
+  display: block;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  gap: 10px;
+  padding: 16px 32px;
+  background: #462cb2;
+  text-decoration: none;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
 footer {
   background-image:
     linear-gradient(rgba(10, 8, 19, 0.9), rgba(10, 7, 20, 0.8)),
@@ -126,6 +165,9 @@ footer p {
   width: 100%;
   display: block;
 }
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-gap: 55px;
@@ -134,7 +176,20 @@ footer p {
   grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-columns-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.card {
+  background: #272435;
+  padding: 30px 0;
+}
+.card-body {
+  padding: 20px 20px;
+}
+section.secondary {
+  background: #181525;
 }
 @media (max-width: 800px) {
   header {
