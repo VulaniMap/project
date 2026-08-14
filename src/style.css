@@ -83,14 +83,12 @@ footer li {
   opacity: 0.7;
 }
 footer a {
-  text-decoration: none;
   color: #ffff;
 }
 footer p {
   font-weight: 400;
   font-size: 16px;
   opacity: 0.6;
-  margin-right: 10px;
 }
 footer section {
   max-width: 1000px;
@@ -98,6 +96,7 @@ footer section {
 }
 .grid {
   display: grid;
+  grid-gap: 55px;
   grid-template-columns: 1fr 2fr 2fr;
 }
 @media (max-width: 800px) {
