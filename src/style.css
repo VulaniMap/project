@@ -181,9 +181,16 @@ footer p {
 .grid-3-columns-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
 .card {
   background: #272435;
   padding: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 20px 20px;
@@ -210,5 +217,11 @@ section.secondary {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
